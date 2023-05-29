@@ -892,7 +892,7 @@ span {
 }
 @media (max-width:768px){
     .clients-rev{
-        width: 1230px;
+        width: 1250px;
         height: 807px;
     }
     .clients-rev .chooseus{
@@ -1119,7 +1119,7 @@ color: #FFFFFF;
 }
 @media(max-width:768px){
     .estimate{
-        width: 323%;
+        width: 400%;
     }
     .cost h3{
         left: 18%;
@@ -1196,9 +1196,13 @@ color: #FFFFFF;
     }
     .box2 img{
         width: auto;
+        margin-left:185px;
+        margin-top:150px;
     }
     .box1 img{
         width:auto;
+        margin-left: 138px;
+        margin-top: 150px;
     }
     .box1{
         position: absolute;
@@ -1210,7 +1214,7 @@ color: #FFFFFF;
     }
     .approach h3{
         left: calc(110% - 633px/2 + 0px);
-    top: 2671px;
+    top: 2275px;
     }
 }
 .wht-we-do{
@@ -1515,9 +1519,8 @@ color: #C6E74A;
 @media(max-width:768px){
     .wht-we-do{
     position: absolute;
-    width: 323%;
-    height: 1950px;
-    top: 3145px;
+    width: 400%;
+    top: 2720px;
     background: #04000E;
     overflow: hidden;
     }
@@ -1805,13 +1808,12 @@ text-align: center;
 }
 @media (max-width:768px){
     .testi{
-        margin-top: 1031%;
-        width: 300%;
+        margin-top: 1172%;
+        width: 400%;
     }
     .video-container iframe{
         width: 100%;
         height: 650px;
-        margin-left:35px;
     }
     .testi h3{
         font-family: 'DM Sans';
@@ -2029,8 +2031,9 @@ text-align: center;
   }
 @media(max-width:768px){
     .trandings{
-        margin-left:100px;
-        width:263%;
+        margin-top:445%;
+        margin-left:25px;
+        width:356%;
     }
 }
 .trandings{
@@ -2271,8 +2274,8 @@ line-height: 69px;
         width: 1262px;
         height: 1190px;
         overflow: hidden;
-        left: 0px;
-        top: 889%;
+        left: 10px;
+        top: 980%;
         background: #04000E;
         z-index: -999;
     }
@@ -2445,8 +2448,8 @@ line-height: 69px;
         width: 1262px;
         height: 1300px;
         overflow: hidden;
-        left: 0px;
-        top: 889%;
+        left: 10px;
+        top: 975%;
         background: #04000E;
         z-index: -999;
     }
@@ -2772,9 +2775,9 @@ line-height: 69px;
     }
     .together{
         background: #C6E74A;
-        margin-top: 321%;
+        margin-top: 0 !important;
         width: 1280px;
-        height: 968px;
+        height: 910px;
     }
 }
 .logo-ft{
@@ -2989,5 +2992,16 @@ line-height: 69px;
         padding: 9px;
         color: #fff;
         font-size: 24px;
+    }
+}
+.fntt{
+    top: -50px;
+}
+@media(max-width:768px){
+    .trandings{
+        margin-top:415%;
+    }
+    .fntt{
+        width:1270px;
     }
 }
